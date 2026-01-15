@@ -2,61 +2,61 @@
 Fake News Detection using AI applies machine learning and LSTM deep learning models to classify news as real or fake. Using the Kaggle dataset with text preprocessing and TF-IDF features, the project compares multiple classifiers and shows LSTM achieves the highest accuracy.
 <br>
 Fake News Detection using Artificial Intelligence
-📌 Overview
+## 📌 Overview
 
 This project focuses on detecting fake news using Artificial Intelligence techniques. It applies both traditional machine learning models and deep learning (LSTM) to classify news articles as real or fake based on textual content.
 
-🚀 Features
+## 🚀 Features
 
-Text preprocessing (cleaning, tokenization, stopword removal)
+- Text preprocessing (cleaning, tokenization, stopword removal)
 
-TF-IDF feature extraction
+- TF-IDF feature extraction
 
-Multiple ML models:
+- Multiple ML models:
 
-Logistic Regression
+- Logistic Regression
 
-Naive Bayes
+- Naive Bayes
 
-Random Forest
+- Random Forest
 
-Deep Learning model:
+- Deep Learning model:
 
-Long Short-Term Memory (LSTM)
+- Long Short-Term Memory (LSTM)
 
-Performance comparison using accuracy, precision, recall, F1-score
+- Performance comparison using accuracy, precision, recall, F1-score
 
-Visualization using confusion matrices and accuracy plots
+- Visualization using confusion matrices and accuracy plots
 
-📂 Dataset
+## 📂 Dataset
 
-Source: Kaggle Fake News Dataset
+- Source: Kaggle Fake News Dataset
 
-Size: ~20,000 labeled news articles
+- Size: ~20,000 labeled news articles
 
-Labels:
+- Labels:
 
 0 → Real
 
 1 → Fake
 
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 
-Python 3
+- Python 3
 
-scikit-learn
+- scikit-learn
 
-TensorFlow / Keras
+- TensorFlow / Keras
 
-NLTK
+- NLTK
 
-pandas, numpy
+- pandas, numpy
 
-matplotlib, seaborn
+- matplotlib, seaborn
 
-Google Colab (for training)
+- Google Colab (for training)
 
-⚙️ Methodology
+## ⚙️ Methodology
 
 Load and preprocess text data
 
@@ -68,7 +68,7 @@ Evaluate models using standard metrics
 
 Visualize results for comparison
 
-📊 Results
+## 📊 Results
 Model	Accuracy
 Logistic Regression	~86%
 Naive Bayes	~83%
@@ -77,11 +77,11 @@ LSTM	~93%
 
 The LSTM model performs best by capturing contextual and sequential patterns in text.
 
-📌 Conclusion
+## 📌 Conclusion
 
 This project demonstrates that deep learning models, especially LSTM, are highly effective for fake news detection. The framework is scalable and can be extended with transformer-based models and real-time deployment.
 
-🔮 Future Enhancements
+## 🔮 Future Enhancements
 
 Integration of BERT / transformer models
 
@@ -91,6 +91,6 @@ Explainable AI (LIME / SHAP)
 
 Multilingual support
 
-📄 License
+## 📄 License
 
 This project is for academic and educational purposes.
